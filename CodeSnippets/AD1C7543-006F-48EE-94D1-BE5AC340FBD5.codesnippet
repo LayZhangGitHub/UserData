@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>getpimageview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@property (nonatomic, strong) UIImageView *mmImageView;
+- (UIImageView *)mmImageView {
+    if (!_mmImageView) {
+        _mmImageView = [[UIImageView alloc] init];
+        _mmImageView.size = CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        [_mmImageView setImage:[UIImage imageNamed:@"&lt;#image#&gt;"]];
+    }
+    return _mmImageView;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AD1C7543-006F-48EE-94D1-BE5AC340FBD5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Get UIImageView property</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

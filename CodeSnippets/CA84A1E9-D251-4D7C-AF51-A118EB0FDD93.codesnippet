@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>propertycopy</string>
+	<string>createview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#class#&gt; *&lt;#object#&gt;;</string>
+	<string> UIView *&lt;#view#&gt; = [[UIView alloc] init];
+        &lt;#view#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        &lt;#view#&gt;.layer.cornerRadius = &lt;#radius#&gt;;
+        &lt;#view#&gt;.backgroundColor = ZLHEXCOLOR(&lt;#hex#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F8779DE-66B9-4568-AED8-19A6197F74D8</string>
+	<string>CA84A1E9-D251-4D7C-AF51-A118EB0FDD93</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property copy</string>
+	<string>create view</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Copy</string>
+	<string>Create View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -8,83 +8,89 @@
 		<array>
 			<dict>
 				<key>Action</key>
-				<string>complete:</string>
+				<string>lowercaseWord:</string>
 				<key>Alternate</key>
 				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
+				<string>Xcode.IDEKit.CmdDefinition.MakeLowerCase</string>
 				<key>Group</key>
-				<string>Editor Menu for Asset Catalog</string>
+				<string>Edit Menu</string>
 				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^@l</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Transformations</string>
+				<key>Title</key>
+				<string>Make Lower Case</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>uppercaseWord:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.MakeUpperCase</string>
+				<key>Group</key>
+				<string>Edit Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^@u</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Transformations</string>
+				<key>Title</key>
+				<string>Make Upper Case</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>testActiveRunContextWithoutBuilding:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.TestWithoutBuilding</string>
+				<key>Group</key>
+				<string>Product Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
 				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Perform Action</string>
 				<key>Title</key>
-				<string>Show Completions</string>
+				<string>Test Without Building</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>complete:</string>
+				<string>renameRefactor:</string>
 				<key>Alternate</key>
 				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>Group</key>
-				<string>Editor Menu for Playground</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Completions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.Rename</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
-				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~t</string>
 				<key>Navigation</key>
 				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Refactor</string>
 				<key>Title</key>
-				<string>Show Completions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Completions</string>
+				<string>Rename…</string>
 			</dict>
 			<dict>
 				<key>Action</key>

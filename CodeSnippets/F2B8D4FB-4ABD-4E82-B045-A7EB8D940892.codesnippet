@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createtextfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UITextField *&lt;#textField#&gt; = [[UITextField alloc] init];
+        &lt;#textField#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        &lt;#textField#&gt;.borderStyle = UITextBorderStyleNone;
+        &lt;#textField#&gt;.textAlignment = NSTextAlignmentCenter;
+        &lt;#textField#&gt;.placeholder = @"&lt;#placeholder#&gt;";
+        &lt;#textField#&gt;.font = ZLNormalFont(&lt;#x#&gt;);
+        &lt;#textField#&gt;.keyboardType = UIKeyboardTypePhonePad;
+        &lt;#textField#&gt;.textColor = ZLHEXCOLOR(&lt;#hex#&gt;);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F2B8D4FB-4ABD-4E82-B045-A7EB8D940892</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create textfield</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create TextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

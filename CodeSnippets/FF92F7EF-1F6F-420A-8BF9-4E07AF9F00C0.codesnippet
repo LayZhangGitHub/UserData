@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>getptextfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+@property (nonatomic, strong) UITextField *mmTextField;
+- (UITextField *)mmTextField {
+    if (!_mmTextField) {
+        _mmTextField = [[UITextField alloc] init];
+        _mmTextField.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _mmTextField.borderStyle = UITextBorderStyleNone;
+        _mmTextField.textAlignment = NSTextAlignmentCenter;
+        _mmTextField.placeholder = @"&lt;#placeholder#&gt;";
+        _mmTextField.font = ZLNormalFont(&lt;#x#&gt;);
+        _mmTextField.keyboardType = UIKeyboardTypePhonePad;
+        _mmTextField.textColor = ZLGray(&lt;#g#&gt;);
+        [_mmTextField addTarget:self action:@selector(textFieldTextChange:) forControlEvents:UIControlEventEditingChanged];
+    }
+    return _mmTextField;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FF92F7EF-1F6F-420A-8BF9-4E07AF9F00C0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Get UITextField property</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

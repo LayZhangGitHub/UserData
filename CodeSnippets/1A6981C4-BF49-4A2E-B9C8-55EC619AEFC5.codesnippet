@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>getpbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+@property (nonatomic, strong) UIButton *mmButton;
+- (UIButton *)mmButton {
+    if (!_mmButton) {
+        _mmButton = [[UIButton alloc] init];
+        _mmButton.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        [_mmButton setTitle:@"&lt;#title#&gt;" forState:UIControlStateNormal];
+        [_mmButton setTitleColor:ZLHEXCOLOR(&lt;#hex#&gt;) forState:UIControlStateNormal];
+        _mmButton.titleLabel.font = ZLNormalFont(&lt;#x#&gt;);
+        _mmButton.backgroundColor = ZLHEXCOLOR(&lt;#hex#&gt;);
+        [_mmButton setBackgroundImage:[UIImage imageNamed:@"&lt;#image#&gt;"] forState:UIControlStateNormal];
+        _mmButton.layer.cornerRadius = &lt;#radius#&gt;;
+        
+        [_mmButton addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _mmButton;
+}
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1A6981C4-BF49-4A2E-B9C8-55EC619AEFC5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Get Button property</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

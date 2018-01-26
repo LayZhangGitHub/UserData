@@ -20,14 +20,14 @@ return cell;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E2B06D4B-263D-4EED-ABB6-5ECF4E49C970</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>cell reuse</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CellReuse</string>
+	<string>Cell Reuse</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

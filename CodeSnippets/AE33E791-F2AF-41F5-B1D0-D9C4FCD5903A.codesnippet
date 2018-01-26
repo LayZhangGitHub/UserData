@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>onceGDC</string>
+	<string>gcdonce</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
@@ -16,14 +16,14 @@ dispatch_once(&amp;onceToken, ^{
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AE33E791-F2AF-41F5-B1D0-D9C4FCD5903A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>once GDC</string>
+	<string>GCD once</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OnceGDC</string>
+	<string>GCD Once</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>afterGDC</string>
+	<string>gcdafter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
@@ -16,14 +16,14 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CEBCAD03-ED69-41E2-ABA6-7D68C4D2428F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>after GDC</string>
+	<string>gcd</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AfterGDC</string>
+	<string>GCD After</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
